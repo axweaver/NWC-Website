@@ -21,6 +21,7 @@ h1 {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
+	
 }
 
 nav {
@@ -41,6 +42,7 @@ nav a {
 	font-size: 25px;
 	text-decoration: uppercase;
 	text-decoration: none;
+	font-family: Poiret One;
 }
 
 nav a:visited {
@@ -55,24 +57,25 @@ nav a:hover {
 }
 
 .introduction {
+	display: flex;
 
 	width: 100%;
 	height: 575px;
 	background-color: #0A1c40;
-	padding-bottom: 15px;
+	padding-bottom: 20px;
+
 }
 
 .intro img {
 	width: 30%;
 	padding: 5px;
-	margin-left: 30px;
+	margin-left: 40px;
 	border: 2px solid;
 	border-color: white;
 }
 
 
 .intro h2 {
-	display: flex;
 	font-size: 45px;
 	color:white;
 	justify-content: center;
@@ -80,6 +83,9 @@ nav a:hover {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	color: #FCFBFA;
+	text-align: center;
+	font-family: Poiret One;
+
 }
 
 .intro p {
@@ -90,6 +96,8 @@ nav a:hover {
 	padding-right: 10px;
 	padding-left: 10px;
 	color: #FCFBFA;
+	padding-bottom: 100px;
+	
 
 }
 
@@ -100,6 +108,7 @@ nav a:hover {
 	border-top: 10px double;
 	border-color: #FCFBFA ;
 	padding-bottom: 15px;
+	display: flex;
 }
 
 
@@ -108,6 +117,7 @@ nav a:hover {
 	color: #FCFBFA;
 	text-align: center;
 	padding: 10px;
+	font-family: Poiret One;
 }
 
 
@@ -115,7 +125,7 @@ nav a:hover {
 .unity img {
 	width: 30%;
 	padding: 5px;
-	margin-left: 30px;
+	margin-left: 40px;
 	border: 2px solid;
 	border-color: white;
 }
@@ -139,6 +149,8 @@ nav a:hover {
 	background-color: #0A1c40;
 	border-top: 10px double;
 	border-color: white;
+	display: flex;
+	border-bottom: 10px double white;
 }
 
 
@@ -147,6 +159,7 @@ nav a:hover {
 	color: white;
 	text-align: center;
 	padding: 10px;
+	font-family: Poiret One;
 }
 
 
